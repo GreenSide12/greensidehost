@@ -474,7 +474,7 @@ button {
      margin-top: 90px;
      padding: 60px 0;
      background: #131518;
-     font-family: Montserrat;
+     font-family: Lucida Sans Unicode;
 }
 
 .Services .titlepage {
@@ -518,7 +518,7 @@ button {
      color: #fff;
      display: block;
      font-weight: 500;
-	 font-family: Montserrat;
+	 font-family: Lucida Sans Unicode;
 }
 .Services .Services-text h2 {
      padding: 20px 0px 20px 0px;
@@ -527,7 +527,7 @@ button {
      color: #fff;
 	 display: block;
      font-weight: 250;
-	 font-family: Montserrat;
+	 font-family: Lucida Sans Unicode;
 }
 .Services .Services-download h3 {
      padding: 20px 0px 20px 0px;
@@ -536,7 +536,7 @@ button {
      color: #fff;
      display: block;
      font-weight: 500;
-	 font-family: Montserrat;
+	 font-family: Lucida Sans Unicode;
 }
 
 .Services .Services-box {
@@ -680,7 +680,7 @@ button {
 .why {
      margin-top: 90px;
      background: #ffff;
-     font-family: Poppins;
+     font-family: Lucida Sans Unicode;
 }
 
 .why .titlepage {
@@ -752,7 +752,7 @@ button {
 
 .contact {
      padding-top: 90px;
-     font-family: Poppins;
+     font-family: Lucida Sans Unicode;
 }
 
 .main_form {
@@ -820,7 +820,7 @@ button {
 /** footer **/
 
 .footer {
-     font-family: Poppins;
+     font-family: Lucida Sans Unicode;
      background: #131518;
 }
 

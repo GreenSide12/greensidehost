@@ -334,7 +334,8 @@ button {
      font-size: 60px;
      line-height: 80px;
      padding-bottom: 25px;
-     font-weight: bold;
+     font-weight: bold; 
+     font-family: 'Lucida Sans Unicode', sans-serif;
 }
 
 .text-title h1 {
@@ -343,6 +344,7 @@ button {
      line-height: 80px;
      padding-bottom: 25px;
      font-weight: bold;
+     font-family: 'Lucida Sans Unicode', sans-serif;	
 }
 
 .text-bg span {
@@ -350,6 +352,7 @@ button {
      font-size: 40px;
      line-height: 35px;
      font-weight: bold;
+     font-family: 'Lucida Sans Unicode', sans-serif;	 
 }
 
 .text-bg p {
@@ -357,6 +360,7 @@ button {
      font-size: 17px;
      line-height: 28px;
      padding: 40px 0;
+     font-family: 'Lucida Sans Unicode', sans-serif;	
 }
 
 .text-title span {

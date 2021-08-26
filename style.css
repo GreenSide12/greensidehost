@@ -276,14 +276,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #3EBF7B ;
+     color: #131518 ;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #3EBF7B ;
+     color: #131518 ;
 }
 
 
@@ -296,9 +296,22 @@ button {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .header {
-     background: #131518 ;
+     background: #30EA9C ;
      width: 100%;
      padding: 40px 40px 40px 40px;
+}
+
+.header-se {
+     background: #fffff ;
+     width: 100%;
+     padding: 40px 40px 40px 40px;
+}
+
+.banner_main-se {
+     background: #fffff ;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     padding-bottom: 90px;
 }
 
 .logo a {
@@ -310,13 +323,21 @@ button {
 }
 
 .banner_main {
-     background: #131518;
+     background: #30EA9C;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      padding-bottom: 90px;
 }
 
 .text-bg h1 {
+     color: #131518;
+     font-size: 60px;
+     line-height: 80px;
+     padding-bottom: 25px;
+     font-weight: bold;
+}
+
+.text-title h1 {
      color: #fff;
      font-size: 60px;
      line-height: 80px;
@@ -325,7 +346,7 @@ button {
 }
 
 .text-bg span {
-     color: #3EBF7B ;
+     color: #fff ;
      font-size: 40px;
      line-height: 35px;
      font-weight: bold;
@@ -337,6 +358,32 @@ button {
      line-height: 28px;
      padding: 40px 0;
 }
+
+.text-title span {
+     color: #000000 ;
+     font-size: 20px;
+     line-height: 35px;
+     font-weight: bold;
+}
+
+.text-title p {
+     color: #5B5B5B;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 40px 0;
+}
+.text-title a {
+     font-size: 16px;
+     background-color: #fff;
+     color: #000;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 190px;
+     text-align: center;
+     display: inline-block;
+     text-transform: uppercase;
+}
+
 
 .text-bg a {
      font-size: 16px;
@@ -462,7 +509,7 @@ button {
      line-height: 25px;
      color: #fff;
      display: block;
-     font-weight: 500;
+     font-weight: 560;
 }
 .Services .Services-text h3 {
 	 padding: 20px 0px 20px 0px;

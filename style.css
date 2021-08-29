@@ -34,9 +34,9 @@ html {
 }
 
 body {
-     color: #666666;
+     color: #191c23;
      font-size: 14px;
-     font-family: 'Lucida Sans Unicode', sans-serif;
+     font-family: 'Poppins';
      line-height: 1.80857;
      font-weight: normal;
 }
@@ -173,7 +173,7 @@ img {
 }
 
 .form-control:focus {
-     border-color: #ffffff !important;
+     border-color: #191c23 !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -240,7 +240,7 @@ button {
 .loader_bg {
      position: fixed;
      z-index: 9999999;
-     background: #fff;
+     background: #191c23;
      width: 100%;
      height: 100%;
 }
@@ -269,7 +269,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 25px;
-     color: #fff;
+     color: #191c23;
      font-size: 16px;
      line-height: 20px;
 }
@@ -296,21 +296,20 @@ button {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .header {
-     background: #30EA9C ;
+     background: #191c23 ;
      width: 100%;
-     padding: 40px 40px 40px 40px;
+     padding: 40px 40px 20px 40px;
 }
 
 .header-se {
-     background: #fffff ;
-     width: 100%;
+     background: transparent;
+     width: 10%;
      padding: 40px 40px 40px 40px;
 }
 
 .banner_main-se {
-     background: #fffff ;
+     background: #191c23 ;
      background-size: 100% 100%;
-     background-repeat: no-repeat;
      padding-bottom: 90px;
 }
 
@@ -323,19 +322,18 @@ button {
 }
 
 .banner_main {
-     background: #30EA9C;
+     background-image: url('lege1.png');
      background-size: 100% 100%;
      background-repeat: no-repeat;
-     padding-bottom: 90px;
+     padding-bottom: 50px;
 }
 
 .text-bg h1 {
-     color: #131518;
+     color: #2ceb9b;
      font-size: 60px;
      line-height: 80px;
      padding-bottom: 25px;
-     font-weight: bold; 
-     font-family: 'Lucida Sans Unicode', sans-serif;
+     font-weight: bold;
 }
 
 .text-title h1 {
@@ -344,7 +342,6 @@ button {
      line-height: 80px;
      padding-bottom: 25px;
      font-weight: bold;
-     font-family: 'Lucida Sans Unicode', sans-serif;	
 }
 
 .text-bg span {
@@ -352,7 +349,6 @@ button {
      font-size: 40px;
      line-height: 35px;
      font-weight: bold;
-     font-family: 'Lucida Sans Unicode', sans-serif;	 
 }
 
 .text-bg p {
@@ -360,7 +356,6 @@ button {
      font-size: 17px;
      line-height: 28px;
      padding: 40px 0;
-     font-family: 'Lucida Sans Unicode', sans-serif;	
 }
 
 .text-title span {
@@ -391,8 +386,9 @@ button {
 
 .text-bg a {
      font-size: 16px;
-     background-color: #fff;
-     color: #000;
+     color: #fff;
+     background-color: #1f222b;
+     color: #fff;
      padding: 10px 0px;
      width: 100%;
      max-width: 190px;
@@ -407,11 +403,11 @@ button {
 }
 
 .text-img figure {
-     margin: 0px;
+     margin: 1px;
 }
 
 .text-img figure img {
-     width: 70%;
+     width: 20%;
 }
 
 .titlepage {
@@ -452,7 +448,7 @@ button {
 .web_hosting a {
      font-size: 16px;
      background-color: #000;
-     color: #fff;
+     color: #191c23;
      padding: 10px 0px;
      width: 100%;
      max-width: 190px;
@@ -475,10 +471,10 @@ button {
 /** Services section **/
 
 .Services {
-     margin-top: 90px;
+     margin-top: 0px;
      padding: 60px 0;
-     background: #131518;
-     font-family: Lucida Sans Unicode;
+     background: #191c23;
+     font-family: Poppins;
 }
 
 .Services .titlepage {
@@ -495,7 +491,7 @@ button {
 }
 
 .Services .Services-box i {
-     background: #fff;
+     background: #1f222b;
      width: 100px;
      height: 100px;
      border-radius: 50px;
@@ -504,7 +500,6 @@ button {
 }
 
 .Services .Services-box i:hover {
-     background: #ddd;
 }
 
 .Services .Services-box h3 {
@@ -522,16 +517,16 @@ button {
      color: #fff;
      display: block;
      font-weight: 500;
-	 font-family: Lucida Sans Unicode;
+	 font-family: Poppins;
 }
 .Services .Services-text h2 {
      padding: 20px 0px 20px 0px;
-     font-size: 15px;
+     font-size: 10px;
      line-height: 25px;
      color: #fff;
 	 display: block;
      font-weight: 250;
-	 font-family: Lucida Sans Unicode;
+	 font-family: Poppins;
 }
 .Services .Services-download h3 {
      padding: 20px 0px 20px 0px;
@@ -540,14 +535,12 @@ button {
      color: #fff;
      display: block;
      font-weight: 500;
-	 font-family: Lucida Sans Unicode;
+	 font-family: Poppins;
 }
 
 .Services .Services-box {
-     text-align: center;
-     background-color: transparent;
-     border-radius: 20px;
-     border: #cecfd7 solid 2px;
+     background-color: #1f222b;
+     border-radius: 5px;
      padding: 40px;
      transition: ease-in all 0.5s;
      margin-bottom: 30px;
@@ -603,8 +596,8 @@ button {
 }
 
 .Services .Services-box:hover {
-     background: #3EBF7B;
-     transition: ease-in all 0.5s;
+  transition: ease-in all 0.2s;
+  transform: scale(1.1);
      cursor: pointer;
 }
 
@@ -615,7 +608,7 @@ button {
 }
 
 .Services .Services-box p {
-     font-size: 16px;
+     font-size: 14px;
      line-height: 24px;
      color: #fff;
 }
@@ -683,8 +676,8 @@ button {
 
 .why {
      margin-top: 90px;
-     background: #ffff;
-     font-family: Lucida Sans Unicode;
+     background: #191c23;
+     font-family: Poppins;
 }
 
 .why .titlepage {
@@ -710,12 +703,11 @@ button {
 
 .why .why-box {
      text-align: center;
-     background-color: transparent;
+     background-color: #1f222b;
      border-radius: 20px;
      padding: 40px 20px 20px 20px;
      transition: ease-in all 0.5s;
      margin-bottom: 30px;
-     box-shadow: #ddd 0px 0px 10px
 }
 
 .why .why-box p {
@@ -756,7 +748,7 @@ button {
 
 .contact {
      padding-top: 90px;
-     font-family: Lucida Sans Unicode;
+     font-family: Poppins;
 }
 
 .main_form {
@@ -824,13 +816,13 @@ button {
 /** footer **/
 
 .footer {
-     font-family: Lucida Sans Unicode;
+     font-family: Poppins;
      background: #131518;
 }
 
 .cont {
      text-align: center;
-     margin-top: 31%;
+     margin-top: 21%;
 }
 
 .cont h3 {
@@ -860,7 +852,8 @@ button {
 
 .copyright {
      padding: 20px 0px;
-     background: #fff;
+     color: #fff;
+     background: #191c23;
 }
 
 .copyright p {
@@ -871,13 +864,12 @@ button {
 }
 
 .copyright a {
-     color: #1e1e1e;
+     color: #fff;
 }
 
 .copyright a:hover {
-     color: #0c0f38;
+     color: #fff;
 }
 
 
 /** end footer **/
-

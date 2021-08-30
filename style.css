@@ -510,6 +510,17 @@ button {
      display: block;
      font-weight: 560;
 }
+
+
+.Services .Services-boxw h3 {
+     padding: 20px 0px 20px 0px;
+     font-size: 20px;
+     text-align: center;
+     line-height: 25px;
+     color: #fff;
+     display: block;
+     font-weight: 560;
+}
 .Services .Services-text h3 {
 	 padding: 20px 0px 20px 0px;
      font-size: 45px;
@@ -545,6 +556,16 @@ button {
      transition: ease-in all 0.5s;
      margin-bottom: 30px;
 }
+
+
+.Services .Services-boxw {
+     background-color: #1f222b;
+     border-radius: 5px;
+     padding: 40px;
+     transition: ease-in all 0.5s;
+     margin-bottom: 30px;
+}
+
 
 .Services .Services-box1 {
      text-align: center;
@@ -597,6 +618,13 @@ button {
 
 .Services .Services-box:hover {
   transition: ease-in all 0.2s;
+  transform: scale(1.1);
+     cursor: pointer;
+}
+
+
+.Services .Services-boxw:hover {
+  transition: ease-in all 0.1s;
   transform: scale(1.1);
      cursor: pointer;
 }
